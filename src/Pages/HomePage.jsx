@@ -52,9 +52,9 @@ const Home = () => {
 
         <div className="call-to-action">
           <p>Ready to explore our courses?</p>
-          <link className="btn" href="/courses" data-discover="true">
+          <a className="btn" href="/courses" data-discover="true">
             Explore Courses
-          </link>
+          </a>
         </div>
       </div>
     </div>
