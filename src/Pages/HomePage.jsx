@@ -4,6 +4,7 @@ import './HomePage.css';
 import Img1 from '../assets/vck.png';
 import Img2 from '../assets/vck.jpg';
 import Img3 from '../assets/vckstd.jpg';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -54,7 +55,7 @@ const Home = () => {
           <p>Ready to explore our courses?</p>
           <Link className="btn" to="/courses" data-discover="true">
             Explore Courses
-          </Link>
+          </Link> 
         </div>
       </div>
     </div>
