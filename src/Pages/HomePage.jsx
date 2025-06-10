@@ -1,6 +1,9 @@
 // src/pages/Home.jsx
 import React from 'react';
 import './HomePage.css';
+import Img1 from '../assets/vck.png';
+import Img2 from '../assets/vck.jpg';
+import Img3 from '../assets/vckstd.jpg';
 
 const Home = () => {
   return (
@@ -10,7 +13,7 @@ const Home = () => {
           <img
             alt="Vivekanand College Campus"
             className="hero-banner-image"
-            src="src\assets\vck.png"
+            src={Img1}
           />
           
         </div>
