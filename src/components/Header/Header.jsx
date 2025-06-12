@@ -1,11 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './Header.css';
+import { Link } from 'react-router-dom';
 
 const Header = () => (
   <header className="main-header">
     {/* <div className="college-name"> */}
-   <h2 Link to="/">Vivekanand College</h2> <Link/>
+   <h2 >Vivekanand College</h2> 
     {/* </div> */}
     <nav className="navbar desktop-nav">
       <Link className="nav-item" to="/">Home</Link>
