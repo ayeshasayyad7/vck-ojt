@@ -32,7 +32,7 @@ function App() {
           show={showPopup}
           onClose={handleClosePopup}
           studentName="Ayesha Sayyad"
-          studentPhotoUrl="src\assets\WhatsApp Image 2025-06-13 at 4.48.09 PM.jpeg" // Path to their photo
+          studentPhotoUrl="/ayesha.jpeg" // Path to their photo
           uniqueMessage="Learned so much during this OJT! This app showcases my independent coding and deployment skills"
         />
       </div>
