@@ -16,8 +16,15 @@ const Home = () => {
             className="hero-banner-image"
             src={Img1}
           />
+          <div className="hero-overlay-text">
+            <h1>Welcome to Vivekanand College!</h1>
+            <p>Your journey to excellence starts here.</p>
+            <Link className="btn hero-btn" to="/admissions">Apply Now!</Link>
+            </div>
+
           
         </div>
+        
 
         <p>
           <strong>Vivekanand College</strong> is a premier educational institution dedicated to fostering academic
