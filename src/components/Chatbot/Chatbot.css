@@ -492,7 +492,7 @@ chat-window {
   border-top: 1px solid #E0E0E0;
   background-color: #F8F9FA;
   flex-shrink: 0;
-}
+}  
 .chatbot-input input {
   flex-grow: 1;
   padding: 10px;
@@ -506,7 +506,7 @@ chat-window {
   border-color: #007BFF;
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
-.chatbot-input button {
+.chatbot -input  button {
   background-color: #28A745;
   color: white;
   border: none;
